@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-bevy = { version = "0.13.2" }
+bevy = { version = "0.14", features = ["dynamic_linking"] }
 blake3 = { version = "1.5", features = [ "pure" ] }
 rand = "0.8.5"
 
